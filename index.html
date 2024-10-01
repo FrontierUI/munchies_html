@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Munchees | Verify</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/globals.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <main class="position-relative w-100 h-100 wrapped" style="z-index: 1">
+      <div
+        class="container-fluid relative w-full h-full munchiesHead lg:p-20 flex flex-col items-center justify-center z-[999]"
+      >
+        <section class="hidden lg:block absolute top-0 items-center">
+          <a href="index.html">
+            <img
+              src="assets/images/munchiesLogo.png"
+              class="img-fluid w-full"
+              alt=""
+            />
+          </a>
+        </section>
+
+        <header class="header">
+          <div class="containered">
+            <div class=""></div>
+            <nav class="menu titleFont lettSpace">
+              <div class="head">
+                <div class="logo">
+                  <img
+                    src="assets/images/munchiesLogo.png"
+                    class="w-36"
+                    alt="logo"
+                  />
+                </div>
+                <button type="button" class="close-menu-btn"></button>
+              </div>
+
+              <ul>
+                <li class="dropdown">
+                  <a href="#">exotic flower</a>
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul class="sub-menu rounded-md">
+                    <li class="dropdown bg-[#3d3983]">
+                      <a href="#" class=""><span>Tropical Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#76cfe6] transition duration-300 hover:bg-[#ef4b88]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/miami-vice.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Miami Vice</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#c9e6cf] transition duration-300 hover:bg-[#f7d255]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/mango-mojito.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Mango Mojito</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#cbdf64] transition duration-300 hover:bg-[#7cccdc]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/paradise-bliss.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Paradise bliss</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#fec848]">
+                      <a href="#" class=""><span>breakfast club 2</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#f0cb18] transition duration-300 hover:bg-[#5279bc]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/blueberry-pancake01.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">blueberry pancake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#853b36] transition duration-300 hover:bg-[#e68b53]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/chocolate-blazed-donut.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">chocolate blazed donut</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#66c7c7] transition duration-300 hover:bg-[#e8a844]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/cinnamon-toast-bunz.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Cinnamon Toast Bunz</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#C7C428]">
+                      <a href="#" class=""><span>cake Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#fee049] transition duration-300 hover:bg-[#ef9123]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/sticky-butter-cake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">sticky butter cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#ef3f3c] transition duration-300 hover:bg-[#f9d5e5]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/red-velvet-cake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">red velvet cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#eae72e] transition duration-300 hover:bg-[#ffcc7c]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/cinnamon-toast-bunz.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Cinnamon Toast Bunz</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#5da2d8]">
+                      <a href="#" class=""><span>ice pop Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#f21f2b] transition duration-300 hover:bg-[#5da2d8]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/rocket-pop.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">rocket pope</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#ffd10f] transition duration-300 hover:bg-[#b92063]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/pineapple-passion.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">pineapple passion</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#35b558]">
+                      <a href="#" class=""><span>candy Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#8e53a2] transition duration-300 hover:bg-[#c498c6]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/big-purple-apple.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">big purple apple</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#ee4a9a] transition duration-300 hover:bg-[#fed701]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/nyc-exotic-cheesecake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">NYC Exotic Cheesecake</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#58a3da] transition duration-300 hover:bg-[#a7dbf5]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/coney-island-snow-cone.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">coney island snowcone</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#">pre rolls</a>
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul class="sub-menu rounded-md">
+                    <li class="dropdown bg-[#955da6]">
+                      <a href="#" class=""><span>nyc Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#8e53a2] transition duration-300 hover:bg-[#c498c6]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/big-purple-apple.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">big purple apple</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#ee4a9a] transition duration-300 hover:bg-[#fed701]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/nyc-exotic-cheesecake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">NYC Exotic Cheesecake</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#58a3da] transition duration-300 hover:bg-[#a7dbf5]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/coney-island-snow-cone.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">coney island snowcone</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#fcb43f]">
+                      <a href="#" class=""><span>carnival Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#fcb43f] transition duration-300 hover:bg-[#bd4b26]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/funnel-cake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">funnel cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#f05964] transition duration-300 hover:bg-[#f5e18a]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/banana-split-sundae.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">banana split cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#fcd322] transition duration-300 hover:bg-[#ee388a]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/pink-lemonade.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">pink lemonade</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#C7C428]">
+                      <a href="#" class=""><span>cake Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#fee049] transition duration-300 hover:bg-[#ef9123]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/sticky-butter-cake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">sticky butter cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#ef3f3c] transition duration-300 hover:bg-[#f9d5e5]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/red-velvet-cake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">red velvet cake</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#eae72e] transition duration-300 hover:bg-[#ffcc7c]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/cinnamon-toast-bunz.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">Cinnamon Toast Bunz</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#5da2d8]">
+                      <a href="#" class=""><span>ice pop Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#f21f2b] transition duration-300 hover:bg-[#5da2d8]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/rocket-pop.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">rocket pope</span>
+                          </a>
+                        </li>
+                        <li
+                          class="flex items-center justify-start bg-[#ffd10f] transition duration-300 hover:bg-[#b92063]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/pineapple-passion.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">pineapple passion</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#35b558]">
+                      <a href="#" class=""><span>candy Collection</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#8e53a2] transition duration-300 hover:bg-[#c498c6]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/big-purple-apple.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">big purple apple</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#ee4a9a] transition duration-300 hover:bg-[#fed701]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/nyc-exotic-cheesecake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">NYC Exotic Cheesecake</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#58a3da] transition duration-300 hover:bg-[#a7dbf5]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/coney-island-snow-cone.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">coney island snowcone</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown bg-[#c13a95]">
+                      <a href="#" class=""><span>Baked Pies</span></a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                      <ul class="sub-menu sub-menu-right rounded-md">
+                        <li
+                          class="flex items-center justify-start bg-[#f1ba81] transition duration-300 hover:bg-[#c13a95]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/big-purple-apple.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">marshmallow pie</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#e8dfb8] transition duration-300 hover:bg-[#d1206c]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/nyc-exotic-cheesecake.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">creamie pie</span>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flex items-center justify-start bg-[#4966b0] transition duration-300 hover:bg-[#ea5250]"
+                        >
+                          <a
+                            href="#"
+                            class="d-flex align-items-center justify-content-start"
+                          >
+                            <img
+                              src="assets/images/coney-island-snow-cone.png"
+                              class="img-fluid w-10"
+                              alt=""
+                            />
+                            <span class="ml-3">american pie</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#">Edibles</a>
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul class="sub-menu rounded-md">
+                    <li
+                      class="dropdown bg-[#7681bf] flex items-start justify-start transition duration-300 hover:bg-[#3a2665]"
+                    >
+                      <a
+                        href="#"
+                        class="d-flex align-items-center justify-content-start"
+                      >
+                        <img
+                          class="w-12 img-fluid mr-3"
+                          src="assets/images/blueberry-breeze-edible.png"
+                          alt=""
+                        />
+                        <span>blue breeze</span></a
+                      >
+                    </li>
+                    <li
+                      class="dropdown bg-[#a8ca38] flex items-start justify-start transition duration-300 hover:bg-[#e72c25]"
+                    >
+                      <a
+                        href="#"
+                        class="d-flex align-items-center justify-content-start"
+                      >
+                        <img
+                          class="w-12 img-fluid mr-3"
+                          src="assets/images/candy-apple-edible.png"
+                          alt=""
+                        />
+                        <span>candy apple</span></a
+                      >
+                    </li>
+                    <li
+                      class="dropdown bg-[#b892c3] flex items-start justify-start transition duration-300 hover:bg-[#3a2665]"
+                    >
+                      <a
+                        href="#"
+                        class="d-flex align-items-center justify-content-start"
+                      >
+                        <img
+                          class="w-12 img-fluid mr-3"
+                          src="assets/images/grape-juice-edible.png
+                          "
+                          alt=""
+                        />
+                        <span>grape juice</span></a
+                      >
+                    </li>
+
+                    <li
+                      class="dropdown bg-[#ffd553] flex items-start justify-start transition duration-300 hover:bg-[#620f12]"
+                    >
+                      <a
+                        href="#"
+                        class="d-flex align-items-center justify-content-start"
+                      >
+                        <img class="w-12 img-fluid mr-3"
+                        src="assets/images/mango-madness-edible.png" " alt="" />
+                        <span>mango madness</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-right">
+              <button type="button" class="open-menu-btn">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+              </button>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <section class="verifiedSect relative">
+        <div class="munchiesBG"></div>
+        <div class="container-fluid p-0">
+          <div class="row w-100 h-100 flex items-center justify-center">
+            <div class="position-relative">
+              <div class="whiteStripe">
+                <img src="assets/images/strip.png" class="img-fluid" alt="" />
+              </div>
+              <div class="packet">
+                <img src="assets/images/packet.png" class="img-fluid" alt="" />
+              </div>
+
+              <div class="vap">
+                <img
+                  src="assets/images/munchyVap.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-col align-items-center justify-content-center py-14 lg:mt-28 lg:py-24"
+            >
+              <div class="flex flex-col">
+                <h1 class="text-5xl lg:text-8xl text-center titleFont">
+                  Verify your
+                </h1>
+                <h1 class="text-5xl lg:text-8xl text-center titleFont">
+                  product
+                </h1>
+              </div>
+
+              <div
+                class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center my-3"
+              >
+                <div class="input-group heroInputGroup">
+                  <input
+                    type="text"
+                    class="heroInput form-control"
+                    placeholder="Enter Product Code"
+                  />
+                  <button type="button" class="btn verifyBtn">
+                    Verify Now
+                  </button>
+                </div>
+              </div>
+
+              <div class="socials">
+                <a href="#">
+                  <img
+                    src="assets/images/InstagramIcon.svg"
+                    class="img-fluid"
+                    width="45"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="position-relative">
+        <div class="productBoxed">
+          <img
+            src="assets/images/productBox.png"
+            class="img-fluid w-full"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <section class="retailers relative h-full w-full my-8 lg:my-20 pt-8">
+        <div class="container">
+          <div class="row flex items-center justify-center w-full h-full">
+            <div class="flex flex-col items-center justify-center">
+              <h1 class="text-5xl titleFont">our retailers</h1>
+              <div class="grid grid-cols-2 md:grid-cols-5">
+                <div class="relative flex items-center justify-center m-3">
+                  <a href="#" class="p-3">
+                    <img
+                      src="assets/images/cook.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="relative flex items-center justify-center m-3">
+                  <a href="#" class="p-3">
+                    <img
+                      src="assets/images/lemon.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="relative flex items-center justify-center m-3">
+                  <a href="#" class="p-3">
+                    <img
+                      src="assets/images/cult.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="relative flex items-center justify-center m-3">
+                  <a href="#" class="p-3">
+                    <img
+                      src="assets/images/flow.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+
+                <div class="relative flex items-center justify-center m-3">
+                  <a href="#" class="p-3">
+                    <img
+                      src="assets/images/boyz.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-center mt-6">
+                <button class="rounded-full bg-[#ED193A] px-12 py-2 uppercase">
+                  View retailers
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

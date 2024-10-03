@@ -592,10 +592,10 @@ a:hover {
 
   .productBoxed {
     right: 1rem;
-    margin-top: 4rem;
+    margin-top: -4rem;
   }
   .productBoxed img {
-    width: 220px;
-    height: 250px;
+    width: 250px;
+    height: 280px;
   }
 }

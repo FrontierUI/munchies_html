@@ -219,7 +219,7 @@ a:hover {
     top: 0;
     width: 320px;
     height: 100%;
-    background-color: hsl(229, 54%, 51%);
+    animation: munchessHeaderAnimation 10s infinite;
     padding: 15px 30px 30px;
     overflow-y: auto;
     z-index: 1;
@@ -549,10 +549,32 @@ a:hover {
 /* responsiveness start */
 
 @media screen and (max-width: 575px) {
+  .socials {
+    display: none;
+  }
   .packet {
     top: 0;
     left: 0;
     z-index: -1;
+  }
+
+  .smMarginTop {
+    margin-top: 10rem;
+  }
+
+  .inpGroup {
+    margin-left: 1rem;
+  }
+
+  .heroInput {
+    font-size: 16px !important;
+  }
+
+  .heroInputGroup .verifyBtn {
+    padding: 8px 14px;
+    font-weight: normal;
+    right: 5px;
+    top: 4px;
   }
 
   .packet img {
@@ -569,10 +591,11 @@ a:hover {
   }
 
   .productBoxed {
-    bottom: 2rem;
-    right: 0;
+    right: 1rem;
+    margin-top: 4rem;
   }
   .productBoxed img {
     width: 150px;
+    height: 180px;
   }
 }
